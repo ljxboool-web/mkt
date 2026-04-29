@@ -25,13 +25,13 @@
 单个文件编译：
 
 ```bash
-g++ -std=c++17 -O2 -Wall -Wextra acmtrain/2203C.cpp -o acmtrain/2203C
+g++ x.cpp  -o x
 ```
 
 运行：
 
 ```bash
-./acmtrain/2203C
+./x
 ```
 
 也可以使用输入文件测试：
@@ -58,6 +58,7 @@ using namespace std;
 #define int long long
 #define IOS ios::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr)
 #define endl '\n'
+const int inf = 1000000000000000010;
 
 void solve() {
     // solution
