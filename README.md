@@ -58,7 +58,7 @@ using namespace std;
 #define int long long
 #define IOS ios::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr)
 #define endl '\n'
-const int inf = 1000000000000000010;
+const int inf = 1000000000000000010LL;
 
 void solve() {
     // solution
